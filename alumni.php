@@ -5,7 +5,7 @@
 	
 <!-- Content body -->	
 <div class="mainContent" id="wrap">
-	<h1>Alumni</h1>
+	<h1>Alumni and Members</h1>
 	<p>
 		In order to promote an open environment, we have accompanied our group's alumni descriptions with photo. 
 		We hope that this will allow prospective members to undertand the groups composition as well as to provide
