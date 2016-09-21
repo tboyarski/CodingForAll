@@ -1,0 +1,471 @@
+/*  
+	File: base.css
+   
+	Description: All pagess of the website rely on this .CSS
+	file. It sets a baseline from which all pages are rendered.
+	
+	At the bottom at a few additional page specific formatting 
+	areas that may possibly be removed during the development
+	process of their functionality. (E.g. Forums posting...)
+
+ */
+
+/**************************************************************/
+/*                      Navigation Bar 					  	  */
+/************************** Start******************************/
+.activeSelection{
+	background-color:#262c32;	
+}
+div.printDiv{
+	display:none;
+}
+img.staticBackground {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	img.staticBackground {
+	left: 50%;
+	margin-left: -512px; 
+	}
+}
+
+.nav>li>a{
+	padding: 20px 13px 20px 13px;
+}
+.navbar {
+    position: relative; 
+	min-width: 270px;
+	width: 85%;
+    min-height: 50px;
+    margin: auto;
+    border: none;
+	box-shadow: 0 0 30px black;
+}
+
+/* Multi-Browser gradient support */
+.navbar-default {
+    background: #3A6386; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#3A6386, #4490AF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3A6386, #4490AF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3A6386, #4490AF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3A6386, #4490AF); /* Standard syntax */
+}
+.navbar-brand {
+    float: left;
+    height: 60px;
+    padding: 0;
+	padding-top: 8px;
+	margin-right: -5px;
+	margin: 0 10px;
+    font-size: 18px;
+    line-height: 20px;
+	border-radius: 8px;
+}
+.navbar-header {
+	max-width: 680px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #CCC;
+	font-weight:bold;
+	letter-spacing: 1px;
+	font-size:1.05em;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #262c32;
+}
+.navbar-default .navbar-nav>li>a.userName:hover{
+    color: #CCC;
+}
+.navbar-default .navbar-nav>li>a span.userNameColor{
+    color: #262c32;
+}
+.navbar-default .navbar-nav > .activeSelection > a {
+	color: #A444BA;
+}
+.navbar-default .navbar-nav > .activeSelection > a:focus {
+	color: #262c32;
+}
+.navbar-default .navbar-nav > .activeSelection > a:hover {
+	color: #CCC;
+}
+.btn-info:focus, .btn-info:hover {
+     background-color: #2aabd2; 
+     background-position: 0 -15px; 
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #CCC;
+    background-image: none;
+    border-radius: 4px;
+}
+/***************************End********************************/
+/*                      Navigation Bar 					  	  */
+/**************************************************************/
+
+
+
+/**************************************************************/
+/*                      Main Content  					  	  */
+/************************** Start******************************/
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background-image:url(../Images/Black_Binary.png);
+	background-repeat:repeat-x;
+	background-color:#eaeaea;
+}	
+.background {
+	background-repeat:repeat-x;
+	background-color:#454547;
+}
+p {
+	text-align: center;
+	color:#262c32;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	text-decoration: none;
+}
+h1{
+	color:#262c32;
+	font-weight:bold;
+}
+h2{
+	color:#262c32;
+	font-weight:bold;
+	padding-top: 1.0em;
+}
+div.mainContent {
+	position: relative;
+    width: 80%;
+	min-width: 480px;
+    margin: 50px auto 50px auto;
+    padding: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	clear: both;
+    background: white;
+    -moz-box-shadow: 0 0 90px #151b21;
+    -webkit-box-shadow: 0 0 90px #151b21;
+	box-shadow: 0 0 90px #151b21;
+    opacity: .97;
+    filter: alpha(opacity=90);
+	border-radius: 8px;
+	background: #E6E6ED; /* For browsers that do not support gradients */
+	/* #ADD8E6 is a light blue */
+    background: -webkit-linear-gradient(white, #E6E6ED); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #E6E6ED); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #E6E6ED); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #E6E6ED); /* Standard syntax */
+}
+
+/* Button formatting */
+a.button {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+a.button:hover {
+	-moz-box-shadow: 0 0 10px black;
+    -webkit-box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+}
+li.button{
+	padding-right: 0;
+	padding-left: 0;
+	padding-top: 0;
+}
+button.submitButton {
+	display: inline;
+	float: right;
+}
+.btn-block {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+a{
+    color: #CCC;
+    text-decoration: none;
+}
+a:hover {
+    color: #000000;
+	text-decoration: none;
+}
+.active > a {
+	color: #2D3F50;
+}
+form.buttonLinks{
+	display: inline-block;
+	float: right;
+	padding-top: 1.6em;
+	padding-left: 0.5em;
+}
+
+/* Iframe settings */
+iframe {
+	padding: 0;
+	border: 0;	
+	display: block;
+	width: 80%;
+	height: 600px;
+	margin: auto;
+}
+
+/* Site links boldeded and colored on mouse hover */
+.resources{
+	color:#262c32;
+	font-weight:bold;
+}
+a.resources:hover{
+    color: #A444BA;
+	text-decoration: none;
+}
+/************************** End *******************************/
+/*				    	 Main Content 				    	  */
+/**************************************************************/
+
+
+
+/**************************************************************/
+/*						   Footer 				    		  */
+/************************** Start******************************/
+.footer {
+	-moz-box-shadow: 0 0 20px black;
+	-webkit-box-shadow: 0 0 20px black;
+	width: 85%;
+	min-width: 480px;
+	margin: auto;
+	position: relative;
+	clear: both;
+	border-radius: 8px;
+	bottom: 0;
+	/* Set the fixed height of the footer here */
+	height: 50px;
+	background:#4490A0; /* For browsers that do not support gradients */
+	/* #ADD8E6 is a light blue */
+	background: -webkit-linear-gradient(#4490A0, #3A6386); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#4490A0, #3A6386); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#4490A0, #3A6386); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#4490A0, #3A6386); /* Standard syntax */
+}
+.listFooter  li {
+	display: inline-block;
+	text-align:center;
+	padding-left: 5%;
+}
+.footer a:hover {
+    color: #262c32;
+	text-decoration: none;
+}
+ul.listFooter {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: #FFFFFF;
+	font-weight:bold;
+	letter-spacing: 1px;
+	font-size:1.05em;
+	width: 100%;
+}
+div.footerCont{
+	margin: auto;
+	padding: 8px 0 0 0;
+	display: block;
+	text-align: center;
+
+}
+/************************** End *******************************/
+/*						   Footer 				    		  */
+/**************************************************************/
+
+
+
+/**************************************************************/
+/* Page specific formatting of containers and bulleted items. */
+/************************** Start******************************/
+
+/* Index page: Formatting of next event and front page content */
+div#nextEvent{
+	padding: 0;
+	margin: auto;
+	text-align: center;
+}
+
+div#nextEvent div.column{
+	display: inline-block;
+	float: center;
+	width: 480px;
+	vertical-align: middle;
+	padding: 5px 0;
+}
+
+div.column ul{
+	padding: 0;
+}
+div.column ul li{
+	color: #A20000;
+	font-size: 75%;
+	list-style-type: none;
+	padding: 10px;
+}
+div.column li.nextEvent{
+	color: #0000FF;
+	font-size: 85%
+}
+div.column li.currEvent{
+	color: #006500;
+	font-size: 110%
+}
+
+/* Forum page: positioning of div's for post and threads 
+	width="13%" align="center" bgcolor="#E6E6E6" */
+div.mainContent table.forumTable{
+	width: 100%;
+	border: 0;
+	text-align: center; 
+	background-color: #CCCCCC;
+	padding: 30px;
+}
+div.mainContent td.forumTableHash{
+	width="6%";
+}
+div.mainContent td.forumTableTopic{
+	width="53%";
+}
+div.mainContent td.forumTableDate{
+	width="13%";
+}
+div.mainContent td.forumTableRow{
+	background-color: #FFFFFF; 
+}
+/* Site Map page: list architecture, can be ported to global */
+div.mapContainer {
+	padding-top: 1.0em;
+	padding-left: 2.0em;
+	padding-bottom: 0.5em;
+}
+div.mapContainer ul.firstTeir li{
+	padding-top: 1.0em;	
+}
+div.mapContainer ul.firstTeir ul.secondTeir li{
+	padding-top: 0.0em;	
+}
+
+/* About page: positioning of Alumni content */
+h1#specialH1{
+	display: inline-block;
+}
+div.alumniButton {
+	overflow: hidden;
+}
+button.alumni {
+	display: inline;
+	float: right;
+}
+div.imageContainer{
+	text-align: center;	
+}
+div.imageFrame{
+	display: inline-block;
+	padding: 0.8em 0.5em;
+}
+p.imageSubscript{
+	font-size: 65%;	
+}
+
+/* Resources page: positioning of content quick links */
+.inPageLinks  li{
+	display: inline;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+/* Survey page: positioning of content */
+div.mainContent div.surveyContainer table {
+	margin: auto;
+	width: 620px;
+}
+div.mainContent div.surveyContainer p {
+	text-align: left;
+}
+div.surveyContainer table#userInfo tr{
+	text-align: left;
+}
+div.surveyContainer table th{
+	text-align: center;
+}
+div.surveyContainer table td.tableInput{
+	padding-left:30px;
+	padding-right:30px;
+	text-align: center;
+}
+/* Alumni page: positioning of alumni portraits */
+div.cardContainer{
+	text-align: center;	
+}
+div.infoCard{
+	display: inline-block;
+	margin: 1.0em;
+}
+table.alumniCard{
+	border: 2px solid black;
+	width: 320px;
+}
+table.alumniCard.alumniLead{
+	background-color: #ffe976 ;
+}
+table.alumniExec{
+	background-color: #dcb6e4 ;
+}
+table.alumniCore{
+	background-color: #c1e1ec;
+}
+td.alumniStart{
+	text-align: right;	
+	padding-right: 0.2em;
+}
+td.alumniOrg{
+	text-align:left;
+	padding-left: 0.2em;
+}
+tr.alumniInfo{
+	border: 3px dashed grey;
+}
+tr.alumniDescrip{
+	height: 120px;
+}
+h5{
+	padding: 0 1.0em;
+	text-align: left;
+}
+img.alumniPic {
+	width: 320px;
+	height: 300px;
+	margin: auto;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+/************************** End *******************************/
+/* Page specific formatting of containers and bulleted items. */
+/**************************************************************/

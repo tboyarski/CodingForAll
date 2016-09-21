@@ -1,0 +1,117 @@
+/*  
+	File: print.css
+   
+	Description: All pagess of the website rely on this .CSS
+	file when printing.
+	
+	At the bottom at a few additional page specific formatting 
+	areas that may possibly be removed during the development
+	process of their functionality. (E.g. Forums posting...)
+ */
+
+ 
+/**************************************************************/
+/*                  Universal Content  					  	  */
+/************************** Start******************************/
+
+/* To save ink background design does not print */
+footer, img.staticBackground{
+	display: none;
+}
+/**/
+/* Container @ max-width for logo, QR and DIR  */
+div.printDiv{
+	display: block;
+}
+img.PrintLogo{
+	float:left;
+	margin: 3.0em 0 0 1.5em;
+	padding: 1.0em;
+	border: 1px dashed black;
+	border-radius: 3px;
+}
+p.printDir{
+	float: left;
+	clear: left;
+	padding: 1.1em 0 0 1.5em;
+}
+img.PrintQRCode{
+	float: right;
+	clear: right;
+	padding-right: 1.5em;
+}
+/**/
+/* Adjust attributes to defualt "low cost" for printing */
+body {
+	font: 12pt Georgia, "Times New Roman", Times, serif;
+	padding: 0;
+	margin: 0;
+	background: none;
+	background-image: none;
+	text-align: center;
+	display: inline;
+	overflow: visible; /* Ensures content spans multiple pages */
+}
+div.mainContent{
+	border: 1px dotted black;
+	clear: both;
+}
+div.mainContent a{
+	display: none;
+}
+/**/
+/* Adjust footer position and contents */
+div.footer{
+	padding-top: 1.0em;
+}
+ul.listFooter li{
+	padding: 0 0.5em 0 0.5em;
+	display: inline;
+}
+/***************************End********************************/
+/*                  Universal Content  					  	  */
+/**************************************************************/
+
+/**************************************************************/
+/* Page specific formatting of containers and bulleted items. */
+/************************** Start******************************/
+
+/* Recourses page: positioning list elements */
+div.mainContent a.resources{
+	display: block;
+}
+li {
+	list-style-type: none;
+	text-align: left;
+}
+ul.inPageLinks{
+	display: none;
+}
+/* Alumni page: replicating card formatting */
+table.alumniCard{
+	border: 2px solid black;
+	width: 320px;
+}
+tr.alumniDescrip{
+	height: 100px;
+}
+h4{
+	padding: 0;
+	margin: 0;
+}
+h5{
+	padding: 0;
+	margin: 0;
+}
+td.alumniStart{
+	text-align: right;
+}
+td.alumniOrg{
+	text-align:left;
+}
+div.alumniButton{
+	display:block
+}
+/************************** End *******************************/
+/* Page specific formatting of containers and bulleted items. */
+/**************************************************************/
