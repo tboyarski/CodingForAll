@@ -35,10 +35,11 @@
 				
 			</table>
 		</div>
+		
 		<div class="infoCard">		
-			<table class="alumniCard alumniExec">
+			<table class="alumniCard alumniLead">
 				<tr>
-					<td class="alumniOrg">BCIT &#9830; &#9830; &#9830;</td>
+					<td class="alumniOrg">BCIT &#9830; &#9830; &#9830; &#9830;</td>
 					<td class="alumniStart">2015</td>
 				</tr>	
 				<tr>
@@ -56,32 +57,75 @@
 				
 			</table>
 		</div>
-		
-		<div class="infoCard">
-			<table class="alumniCard alumniCore">
+
+		<div class="infoCard">		
+			<table class="alumniCard alumniLead">
 				<tr>
-					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniOrg">BCIT &#9830; &#9830; &#9830; &#9830;</td>
 					<td class="alumniStart">2015</td>
 				</tr>	
 				<tr>
-					<td colspan="2"><img class="alumniPic" src="Images/Alumni/Jess.jpg" alt="Jess"></td> 
+					<td colspan="2"><img class="alumniPic" src="Images/Alumni/Mirela.jpg" alt="Mirela"></td> 
 				</tr>
 				<tr class="alumniInfo">
-					<td colspan="2"><h4>Jessica Saini</h4></td>
+					<td colspan="2"><h4>Mirela Gutica</h4></td>
 				</tr>
 				<tr class="alumniDescrip">
-					<td colspan="2"><h5> She is a talented, soft-spoken and approachable student
-					who joined the club for the	opportunity to presenting to audiences. With a 
-					strong grasp of the materials being covered, she has been able to support her
-					peers in their studies. </h5></td>
+					<td colspan="2"><h5> As an instructor and mentor, she has become increasingly 
+					involved trying to get more women participating in STEM studies. As the sponsor
+					of the club, she is able to provide guidance, advice, and expertise! 
+					meets. </h5></td>
+				</tr>
+				
+			</table>
+		</div>
+		
+		<div class="infoCard">
+			<table class="alumniCard alumniExec">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;  &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="Images/Alumni/Tim.jpg" alt="Tim"></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Tim Boyarski</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> He is an insightful and caring student. Passionate in
+					what he does, he is able to convey this into energy when presenting. With 
+					previous public speaking training and experience he is able to provide 
+					concise yet mildy entertaining demonstrations. </h5></td>
+				</tr>
+			</table>
+		</div>	
+		
+		<div class="infoCard">
+			<table class="alumniCard alumniExec">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;  &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="Images/Alumni/Steph.jpg" alt="Steph"></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Steph Cosacescu</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> She is an exceptional thinker who is able to realize the larger 
+					task at hand. With an acute attenton to detail, derived from her strong literary 
+					background, she provides invaluable  and insightful and feedback. Fluent in French, 
+					she is a true outdoor loving Canadian. </h5></td>
 				</tr>
 			</table>
 		</div>
 		
 		<div class="infoCard">
-			<table class="alumniCard alumniCore">
+			<table class="alumniCard alumniExec">
 				<tr>
-					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniOrg">BCIT &#9830; &#9830;  &#9830;</td>
 					<td class="alumniStart">2015</td>
 				</tr>	
 				<tr>
@@ -106,20 +150,20 @@
 					<td class="alumniStart">2015</td>
 				</tr>	
 				<tr>
-					<td colspan="2"><img class="alumniPic" src="Images/Alumni/Tim.jpg" alt="Tim"></td> 
+					<td colspan="2"><img class="alumniPic" src="Images/Alumni/Jess.jpg" alt="Jess"></td> 
 				</tr>
 				<tr class="alumniInfo">
-					<td colspan="2"><h4>Tim Boyarski</h4></td>
+					<td colspan="2"><h4>Jessica Saini</h4></td>
 				</tr>
 				<tr class="alumniDescrip">
-					<td colspan="2"><h5> He is an insightful and caring student. Passionate in
-					what he does, he is able to convey this into energy when presenting. With 
-					previous public speaking training and experience he is able to provide 
-					concise yet mildy entertaining demonstrations. </h5></td>
+					<td colspan="2"><h5> She is a talented, soft-spoken and approachable student
+					who joined the club for the	opportunity to presenting to audiences. With a 
+					strong grasp of the materials being covered, she has been able to support her
+					peers in their studies. </h5></td>
 				</tr>
 			</table>
 		</div>
-		
+	
 		<div class="infoCard">
 			<table class="alumniCard alumniCore">
 				<tr>
@@ -140,27 +184,6 @@
 				</tr>
 			</table>
 		</div>
-		
-		<div class="infoCard">
-			<table class="alumniCard alumniCore">
-				<tr>
-					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
-					<td class="alumniStart">2015</td>
-				</tr>	
-				<tr>
-					<td colspan="2"><img class="alumniPic" src="Images/Alumni/Steph.jpg" alt="Steph"></td> 
-				</tr>
-				<tr class="alumniInfo">
-					<td colspan="2"><h4>Steph Cosacescu</h4></td>
-				</tr>
-				<tr class="alumniDescrip">
-					<td colspan="2"><h5> She is an exceptional thinker who is able to realize the larger 
-					task at hand. With an acute attenton to detail, derived from her strong literary 
-					background, she provides invaluable  and insightful and feedback. Fluent in French, 
-					she is a true outdoor loving Canadian. </h5></td>
-				</tr>
-			</table>
-		</div>	
 
 		<div class="infoCard">
 			<table class="alumniCard alumniCore">
@@ -181,7 +204,251 @@
 					are few and far between. </h5></td>
 				</tr>
 			</table>
+		</div>	
+
+		<!-- Pseudo-template for Avatar Cards! -->
+		<div class="infoCard">
+			<table class="alumniCard alumniCore">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="" alt=""></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Template</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> 
+
+
+					</h5></td>
+				</tr>
+			</table>
 		</div>						
+		<div class="infoCard">
+			<table class="alumniCard alumniCore">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="" alt=""></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Template</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> 
+
+
+					</h5></td>
+				</tr>
+			</table>
+		</div>
+		<div class="infoCard">
+			<table class="alumniCard alumniCore">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="" alt=""></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Template</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> 
+
+
+					</h5></td>
+				</tr>
+			</table>
+		</div>
+		<div class="infoCard">
+			<table class="alumniCard alumniCore">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="" alt=""></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Template</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> 
+
+
+					</h5></td>
+				</tr>
+			</table>
+		</div>
+		<div class="infoCard">
+			<table class="alumniCard alumniCore">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="" alt=""></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Template</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> 
+
+
+					</h5></td>
+				</tr>
+			</table>
+		</div>
+		<div class="infoCard">
+			<table class="alumniCard alumniCore">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="" alt=""></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Template</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> 
+
+
+					</h5></td>
+				</tr>
+			</table>
+		</div>
+		<div class="infoCard">
+			<table class="alumniCard alumniCore">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="" alt=""></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Template</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> 
+
+
+					</h5></td>
+				</tr>
+			</table>
+		</div>
+		<div class="infoCard">
+			<table class="alumniCard alumniCore">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="" alt=""></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Template</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> 
+
+
+					</h5></td>
+				</tr>
+			</table>
+		</div>
+		<div class="infoCard">
+			<table class="alumniCard alumniCore">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="" alt=""></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Template</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> 
+
+
+					</h5></td>
+				</tr>
+			</table>
+		</div>
+		<div class="infoCard">
+			<table class="alumniCard alumniCore">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="" alt=""></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Template</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> 
+
+
+					</h5></td>
+				</tr>
+			</table>
+		</div>
+		<div class="infoCard">
+			<table class="alumniCard alumniCore">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="" alt=""></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Template</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> 
+
+
+					</h5></td>
+				</tr>
+			</table>
+		</div>
+		<div class="infoCard">
+			<table class="alumniCard alumniCore">
+				<tr>
+					<td class="alumniOrg">BCIT &#9830; &#9830;</td>
+					<td class="alumniStart">2015</td>
+				</tr>	
+				<tr>
+					<td colspan="2"><img class="alumniPic" src="" alt=""></td> 
+				</tr>
+				<tr class="alumniInfo">
+					<td colspan="2"><h4>Template</h4></td>
+				</tr>
+				<tr class="alumniDescrip">
+					<td colspan="2"><h5> 
+
+
+					</h5></td>
+				</tr>
+			</table>
+		</div>
+		
+		
 	</div>
 </div>
 	
